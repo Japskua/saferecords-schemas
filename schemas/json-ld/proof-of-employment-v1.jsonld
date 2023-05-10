@@ -1,0 +1,37 @@
+{
+    "@context": [
+      {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "ProofOfEmployment": {
+          "@id": "",
+          "@context": {
+            "@version": 1.1,
+            "@protected": true,
+            "id": "@id",
+            "type": "@type",
+            "vocab": "",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "employer": {
+                "@id": "vocab:employer",
+                "@type": "xsd:string"
+            },
+            "position": {
+                "@id": "vocab:position",
+                "@type": "xsd:string"
+            },
+            "startDate": {
+              "@id": "vocab:startDate",
+              "@type": "xsd:integer"
+            },
+            "endDate": {
+                "@id": "vocab:endDate",
+                "@type": "xsd:integer"
+            }
+          }
+        }
+      }
+    ]
+  }
