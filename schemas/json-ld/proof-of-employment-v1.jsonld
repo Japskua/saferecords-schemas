@@ -6,13 +6,13 @@
         "id": "@id",
         "type": "@type",
         "ProofOfEmployment": {
-          "@id": "",
+          "@id": "https://raw.githubusercontent.com/Japskua/saferecords-schemas/main/schemas/json-ld/proof-of-employment-v1.jsonld#ProofOfEmployment",
           "@context": {
             "@version": 1.1,
             "@protected": true,
             "id": "@id",
             "type": "@type",
-            "vocab": "",
+            "vocab": "https://github.com/Japskua/saferecords-schemas/blob/main/schemas/vocab/proof-of-employment-vocab-v1.md",
             "xsd": "http://www.w3.org/2001/XMLSchema#",
             "employer": {
                 "@id": "vocab:employer",

@@ -3,8 +3,8 @@
     "type": "object",
     "$metadata": {
       "uris": {
-        "jsonLdContext": "",
-        "jsonSchema": ""
+        "jsonLdContext": "https://raw.githubusercontent.com/Japskua/saferecords-schemas/main/schemas/json-ld/proof-of-employment-v1.jsonld",
+        "jsonSchema": "https://raw.githubusercontent.com/Japskua/saferecords-schemas/main/schemas/json/proof-of-employment-v1.json"
       }
     },
     "required": [
