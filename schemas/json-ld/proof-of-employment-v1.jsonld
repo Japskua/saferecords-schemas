@@ -1,37 +1,38 @@
 {
     "@context": [
-      {
-        "@version": 1.1,
-        "@protected": true,
-        "id": "@id",
-        "type": "@type",
-        "ProofOfEmployment": {
-          "@id": "https://raw.githubusercontent.com/Japskua/saferecords-schemas/main/schemas/json-ld/proof-of-employment-v1.jsonld#ProofOfEmployment",
-          "@context": {
+        {
             "@version": 1.1,
             "@protected": true,
             "id": "@id",
             "type": "@type",
-            "vocab": "https://github.com/Japskua/saferecords-schemas/blob/main/schemas/vocab/proof-of-employment-vocab-v1.md",
-            "xsd": "http://www.w3.org/2001/XMLSchema#",
-            "employer": {
-                "@id": "vocab:employer",
-                "@type": "xsd:string"
-            },
-            "position": {
-                "@id": "vocab:position",
-                "@type": "xsd:string"
-            },
-            "startDate": {
-              "@id": "vocab:startDate",
-              "@type": "xsd:integer"
-            },
-            "endDate": {
-                "@id": "vocab:endDate",
-                "@type": "xsd:integer"
+            "ProofOfEmployment": {
+                "@id": "https://raw.githubusercontent.com/Japskua/saferecords-schemas/main/schemas/json-ld/proof-of-employment-v1.jsonld#ProofOfEmployment",
+                "@context": {
+                    "@version": 1.1,
+                    "@protected": true,
+                    "@propagate": true,
+                    "id": "@id",
+                    "type": "@type",
+                    "vocab": "https://github.com/Japskua/saferecords-schemas/blob/main/schemas/vocab/proof-of-employment-vocab-v1.md",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "employer": {
+                        "@id": "vocab:employer",
+                        "@type": "xsd:string"
+                    },
+                    "position": {
+                        "@id": "vocab:position",
+                        "@type": "xsd:string"
+                    },
+                    "startDate": {
+                        "@id": "vocab:startDate",
+                        "@type": "xsd:integer"
+                    },
+                    "endDate": {
+                        "@id": "vocab:endDate",
+                        "@type": "xsd:integer"
+                    }
+                }
             }
-          }
         }
-      }
     ]
-  }
+}
